@@ -76,7 +76,7 @@ a {
 .animeLeft {
     opacity: 0;
     transform: translate3d(-20px);
-    animation: animeLeft .3s forwards;
+    animation: animeLeft 0.3s forwards;
 }
 
 @keyframes animeLeft {
@@ -84,4 +84,14 @@ a {
         opacity: 1;
         transform: initial;
     }
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh + 10rem);
+}
+
+.AppBody{
+    flex: 1;
 }

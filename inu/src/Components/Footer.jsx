@@ -3,9 +3,10 @@ import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
-        Footer
-    </div>
+    <footer className={styles.footer}>
+        <div className="inu-footer"></div>
+        <p>Inu. Alguns direitos reservados.</p>
+    </footer>
   )
 }
 
