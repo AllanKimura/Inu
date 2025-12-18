@@ -62,7 +62,7 @@ const UserStatsGraphs = ({ data }) => {
         </div>
         <div>
         </div>
-    </section>
+   </section>
   )
 }
 
