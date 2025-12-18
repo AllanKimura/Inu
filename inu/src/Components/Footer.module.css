@@ -1,11 +1,21 @@
 .footer {
     background: #fb1;
-    padding: 3rem 1rem 0 1rem;
-    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
     text-align: center;
     color: #764701;
 }
 
 .footer p{
     margin-top: 1rem;
+}
+
+.inu{
+    padding: 0;
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
